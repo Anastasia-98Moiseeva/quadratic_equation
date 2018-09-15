@@ -1,0 +1,4 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/anastasia/CLionProjects/QuadraticEquation
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/anastasia/CLionProjects/QuadraticEquation/cmake-build-debug
