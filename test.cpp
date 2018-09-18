@@ -79,11 +79,11 @@ TEST(discriminant_is_positive, quadratic1){
 
 TEST(discriminant_is_positive, quadratic2){
     double x1 = 0, x2 = 0;
-    int x = Equation(1, 2, -48, &x1, &x2);
+    int x = Equation(3, -6, 0, &x1, &x2);
     ASSERT_EQ(2, x);
     Sort_roots(x1, x2);
-    ASSERT_EQ(6, x1);
-    ASSERT_EQ(-8, x2);
+    ASSERT_EQ(2, x1);
+    ASSERT_EQ(0, x2);
 }
 
 TEST(discriminant_is_positive, quadratic3){

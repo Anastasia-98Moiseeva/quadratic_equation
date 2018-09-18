@@ -75,7 +75,12 @@ int Equation(const double a, const double b, const double c, double* x1, double*
     assert (x1!=x2);
     const double discriminant = Find_discriminant(a, b, c);
     if (!(std::fabs(a - 0) < std::numeric_limits<double>::epsilon())  && !(discriminant < 0)) {
-        Solve_quadratic_equation(a, b, discriminant, x1, x2);
+        if (std::fabs(c - 0) < std::numeric_limits<double>::epsilon()){
+            Solve_linear_equation(a, b, x1);
+            x2 = 0;
+        } else {
+            Solve_quadratic_equation(a, b, discriminant, x1, x2);
+        }
         return 2;
     }
     if (std::fabs(a - 0) < std::numeric_limits<double>::epsilon()) {
