@@ -74,7 +74,7 @@ int Equation(const double a, const double b, const double c, double* x1, double*
     assert (x2 != NULL);
     assert (x1!=x2);
     const double discriminant = Find_discriminant(a, b, c);
-    if (a != 0 && discriminant >= 0) {
+    if (!(std::fabs(a - 0) < std::numeric_limits<double>::epsilon())  && !(discriminant < 0)) {
      /* well well well, double number is compared without epsilon, it is violation of the every fundamental rules together, 
         plz check unless anybody sees it */
         Solve_quadratic_equation(a, b, discriminant, x1, x2);

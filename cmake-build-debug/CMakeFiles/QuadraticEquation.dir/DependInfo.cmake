@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/anastasia/CLionProjects/QuadraticEquation/main.cpp" "/home/anastasia/CLionProjects/QuadraticEquation/cmake-build-debug/CMakeFiles/QuadraticEquation.dir/main.cpp.o"
-  "/home/anastasia/CLionProjects/QuadraticEquation/test.cpp" "/home/anastasia/CLionProjects/QuadraticEquation/cmake-build-debug/CMakeFiles/QuadraticEquation.dir/test.cpp.o"
+  "/home/anastasia/CLionProjects/quadratic_equation/main.cpp" "/home/anastasia/CLionProjects/quadratic_equation/cmake-build-debug/CMakeFiles/QuadraticEquation.dir/main.cpp.o"
+  "/home/anastasia/CLionProjects/quadratic_equation/test.cpp" "/home/anastasia/CLionProjects/quadratic_equation/cmake-build-debug/CMakeFiles/QuadraticEquation.dir/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,10 +19,10 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/anastasia/CLionProjects/QuadraticEquation/cmake-build-debug/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "/home/anastasia/CLionProjects/QuadraticEquation/cmake-build-debug/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "/home/anastasia/CLionProjects/QuadraticEquation/cmake-build-debug/googletest-master/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
-  "/home/anastasia/CLionProjects/QuadraticEquation/cmake-build-debug/googletest-master/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
+  "/home/anastasia/CLionProjects/quadratic_equation/cmake-build-debug/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/anastasia/CLionProjects/quadratic_equation/cmake-build-debug/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "/home/anastasia/CLionProjects/quadratic_equation/cmake-build-debug/googletest-master/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
+  "/home/anastasia/CLionProjects/quadratic_equation/cmake-build-debug/googletest-master/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/anastasia/CLionProjects/QuadraticEquation/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/anastasia/CLionProjects/quadratic_equation/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9f594/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9f594.dir/build.make CMakeFiles/cmTC_9f594.dir/build
-make[1]: Entering directory '/home/anastasia/CLionProjects/QuadraticEquation/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9f594.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_9f594.dir/CheckSymbolExists.c.o   -c /home/anastasia/CLionProjects/QuadraticEquation/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_9f594
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f594.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_9f594.dir/CheckSymbolExists.c.o  -o cmTC_9f594 -rdynamic 
-CMakeFiles/cmTC_9f594.dir/CheckSymbolExists.c.o: In function `main':
-CheckSymbolExists.c:(.text+0xa): undefined reference to `pthread_create'
+Run Build Command:"/usr/bin/make" "cmTC_91369/fast"
+/usr/bin/make -f CMakeFiles/cmTC_91369.dir/build.make CMakeFiles/cmTC_91369.dir/build
+make[1]: Entering directory '/home/anastasia/CLionProjects/quadratic_equation/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91369.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_91369.dir/CheckSymbolExists.c.o   -c /home/anastasia/CLionProjects/quadratic_equation/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_91369
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91369.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_91369.dir/CheckSymbolExists.c.o  -o cmTC_91369 
+CMakeFiles/cmTC_91369.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x15): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_9f594.dir/build.make:97: recipe for target 'cmTC_9f594' failed
-make[1]: *** [cmTC_9f594] Error 1
-make[1]: Leaving directory '/home/anastasia/CLionProjects/QuadraticEquation/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_9f594/fast' failed
-make: *** [cmTC_9f594/fast] Error 2
+CMakeFiles/cmTC_91369.dir/build.make:97: recipe for target 'cmTC_91369' failed
+make[1]: *** [cmTC_91369] Error 1
+make[1]: Leaving directory '/home/anastasia/CLionProjects/quadratic_equation/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_91369/fast' failed
+make: *** [cmTC_91369/fast] Error 2
 
-File /home/anastasia/CLionProjects/QuadraticEquation/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/anastasia/CLionProjects/quadratic_equation/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
