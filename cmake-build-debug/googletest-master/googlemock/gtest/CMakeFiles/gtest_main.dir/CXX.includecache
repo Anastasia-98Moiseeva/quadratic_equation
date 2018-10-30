@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -286,9 +286,9 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/anastasia/CLionProjects/QuadraticEquation/googletest-master/googletest/src/gtest_main.cc
+/home/anastasia/CLionProjects/quadratic_equation/googletest-master/googletest/src/gtest_main.cc
 stdio.h
 -
 gtest/gtest.h
-/home/anastasia/CLionProjects/QuadraticEquation/googletest-master/googletest/src/gtest/gtest.h
+/home/anastasia/CLionProjects/quadratic_equation/googletest-master/googletest/src/gtest/gtest.h
 

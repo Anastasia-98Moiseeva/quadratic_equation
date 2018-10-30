@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -574,21 +574,21 @@ absl/debugging/symbolize.h
 absl/strings/str_cat.h
 ../googletest-master/googletest/src/absl/strings/str_cat.h
 
-/home/anastasia/CLionProjects/QuadraticEquation/googletest-master/googletest/src/gtest-all.cc
+/home/anastasia/CLionProjects/quadratic_equation/googletest-master/googletest/src/gtest-all.cc
 gtest/gtest.h
-/home/anastasia/CLionProjects/QuadraticEquation/googletest-master/googletest/src/gtest/gtest.h
+/home/anastasia/CLionProjects/quadratic_equation/googletest-master/googletest/src/gtest/gtest.h
 src/gtest.cc
-/home/anastasia/CLionProjects/QuadraticEquation/googletest-master/googletest/src/src/gtest.cc
+/home/anastasia/CLionProjects/quadratic_equation/googletest-master/googletest/src/src/gtest.cc
 src/gtest-death-test.cc
-/home/anastasia/CLionProjects/QuadraticEquation/googletest-master/googletest/src/src/gtest-death-test.cc
+/home/anastasia/CLionProjects/quadratic_equation/googletest-master/googletest/src/src/gtest-death-test.cc
 src/gtest-filepath.cc
-/home/anastasia/CLionProjects/QuadraticEquation/googletest-master/googletest/src/src/gtest-filepath.cc
+/home/anastasia/CLionProjects/quadratic_equation/googletest-master/googletest/src/src/gtest-filepath.cc
 src/gtest-port.cc
-/home/anastasia/CLionProjects/QuadraticEquation/googletest-master/googletest/src/src/gtest-port.cc
+/home/anastasia/CLionProjects/quadratic_equation/googletest-master/googletest/src/src/gtest-port.cc
 src/gtest-printers.cc
-/home/anastasia/CLionProjects/QuadraticEquation/googletest-master/googletest/src/src/gtest-printers.cc
+/home/anastasia/CLionProjects/quadratic_equation/googletest-master/googletest/src/src/gtest-printers.cc
 src/gtest-test-part.cc
-/home/anastasia/CLionProjects/QuadraticEquation/googletest-master/googletest/src/src/gtest-test-part.cc
+/home/anastasia/CLionProjects/quadratic_equation/googletest-master/googletest/src/src/gtest-test-part.cc
 src/gtest-typed-test.cc
-/home/anastasia/CLionProjects/QuadraticEquation/googletest-master/googletest/src/src/gtest-typed-test.cc
+/home/anastasia/CLionProjects/quadratic_equation/googletest-master/googletest/src/src/gtest-typed-test.cc
 

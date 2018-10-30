@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -286,7 +286,7 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/anastasia/CLionProjects/QuadraticEquation/main.cpp
+/home/anastasia/CLionProjects/quadratic_equation/main.cpp
 iostream
 -
 cmath
@@ -296,11 +296,11 @@ assert.h
 limits
 -
 
-/home/anastasia/CLionProjects/QuadraticEquation/main.h
+/home/anastasia/CLionProjects/quadratic_equation/main.h
 
-/home/anastasia/CLionProjects/QuadraticEquation/test.cpp
+/home/anastasia/CLionProjects/quadratic_equation/test.cpp
 gtest/gtest.h
-/home/anastasia/CLionProjects/QuadraticEquation/gtest/gtest.h
+/home/anastasia/CLionProjects/quadratic_equation/gtest/gtest.h
 main.h
-/home/anastasia/CLionProjects/QuadraticEquation/main.h
+/home/anastasia/CLionProjects/quadratic_equation/main.h
 
